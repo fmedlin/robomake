@@ -1,0 +1,12 @@
+= robomake
+
+From your Android NDK directory, execute robomake
+
+  robomake <app-name>
+  
+It will rebuild your app when a source file change is detected.
+
+TODO
+
+* Parameterize the file extensions to watch
+* Currently does a build for each source file that changes; need to batch those and build only once.
